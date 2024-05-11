@@ -23,3 +23,12 @@ npm install @angular/cli --save-dev             это локально Уста
 6) ng new client
 7) ng test                                      - протестировать
 - в app.component.spec.ts есть 3 теста из коробки
+
+
+TEST
+8) Создаем single.service.ts &  single.service.spec.ts 
+- где будут простые тесты для примера проверки корректности работы коды в целом, напр:
+- expect(service).not.toBeTruthy(); 
+- ответ: Expected SingleService({  }) not to be truthy.
+9) Тестирование зависимостей
+- Проверка взаимодействия между сервисами
