@@ -32,3 +32,12 @@ TEST
 - ответ: Expected SingleService({  }) not to be truthy.
 9) Тестирование зависимостей
 - Проверка взаимодействия между сервисами
+10) Angular tested
+11) если тест не работает и нужно его исключить it => xit
+12) если нужно запустить только 1 тест it -> fit
+13) Аналогично для группы тестов: describe -> fdescribe  / xdescribe
+14) test coverage - проверить какой объем проеткта покрты тестами 
+- терминал: test --code-coverage
+- на постоянку - angular.json "test":{ "codeCoverage": true,}
+
+-  результат лежит в src/app/index.html 
