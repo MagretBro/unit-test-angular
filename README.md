@@ -40,4 +40,5 @@ TEST
 - терминал: test --code-coverage
 - на постоянку - angular.json "test":{ "codeCoverage": true,}
 
--  результат лежит в src/app/index.html 
+-  результат лежит в src/app/index.html
+- путь до html: open coverage/test-client/index.html 
